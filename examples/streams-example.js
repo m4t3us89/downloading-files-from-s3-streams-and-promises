@@ -10,8 +10,8 @@ const AWS = require('aws-sdk')
 const S3 = new AWS.S3()
 
 const filePathOnBucket = {
-    Bucket: 'survey-erick-001',
-    Key: 'survey_results_public.csv'
+    Bucket: '',
+    Key: '.csv'
 }
 const fileOutput = createWriteStream('output-stream.csv')
 const ONE_SECOND = 1000
